@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "SandboxGameEditor Editor Win64 Development (SandboxGame)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\User\\Documents\\Unreal Projects\\SandboxGame\\.vscode\\compileCommands_SandboxGame.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

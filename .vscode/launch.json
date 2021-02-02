@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "SandboxGame (Debug)",
+			"request": "launch",
+			"preLaunchTask": "SandboxGame Win64 Debug Build",
+			"program": "C:\\Users\\User\\Documents\\Unreal Projects\\SandboxGame\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SandboxGame (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "SandboxGame Win64 DebugGame Build",
+			"program": "C:\\Users\\User\\Documents\\Unreal Projects\\SandboxGame\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SandboxGame (Development)",
+			"request": "launch",
+			"preLaunchTask": "SandboxGame Win64 Development Build",
+			"program": "C:\\Users\\User\\Documents\\Unreal Projects\\SandboxGame\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "C:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SandboxGame (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "SandboxGame Win64 Shipping Build",
+			"program": "C:\\Users\\User\\Documents\\Unreal Projects\\SandboxGame\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SandboxGame (Test)",
+			"request": "launch",
+			"preLaunchTask": "SandboxGame Win64 Test Build",
+			"program": "C:\\Users\\User\\Documents\\Unreal Projects\\SandboxGame\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SandboxGameEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "SandboxGameEditor Win64 Debug Build",
+			"program": "C:\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\User\\Documents\\Unreal Projects\\SandboxGame\\SandboxGame.uproject"
+			],
+			"cwd": "C:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SandboxGameEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "SandboxGameEditor Win64 DebugGame Build",
+			"program": "C:\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"C:\\Users\\User\\Documents\\Unreal Projects\\SandboxGame\\SandboxGame.uproject"
+			],
+			"cwd": "C:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "SandboxGameEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "SandboxGameEditor Win64 Development Build",
+			"program": "C:\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\User\\Documents\\Unreal Projects\\SandboxGame\\SandboxGame.uproject"
+			],
+			"cwd": "C:\\UE_4.26",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\UE_4.26\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\UE_4.26\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"C:\\Users\\User\\Documents\\Unreal Projects\\SandboxGame\\SandboxGame.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\UE_4.26"
+		}
+	]
+}
